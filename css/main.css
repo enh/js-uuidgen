@@ -1,7 +1,8 @@
 body {
-  margin: 60px auto;
-  width: 70%;
-  font-size: 16px;
+  margin: 5% auto;
+  width: 90%;
+  font-size: 20px;
+  font-size: 2vw;
 }
 body, button, input {
   font-family: 'roboto mono', 'monospaced';
