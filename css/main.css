@@ -3,5 +3,5 @@ body {
   width: 70%;
 }
 body, input {
-  font-family: 'roboto mono';
+  font-family: 'roboto mono', 'monospaced';
 }
