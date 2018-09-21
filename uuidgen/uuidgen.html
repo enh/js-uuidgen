@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    body, input { font-family: "roboto mono"; }
+  </style>
+</head>
+<body>
+  <h1>uuidgen</h1>
+  <p>Generates <a href="https://tools.ietf.org/html/rfc4122">RFC-4122</a>
+  random UUIDs.</p>
+  <input id="uuid" readonly="true" size=36 type="text">
+  <script src="uuidgen.js"></script>
+  <button onclick="generate_uuid('uuid')">Generate</button>
+  <button onclick="copy_to_clipboard('uuid')">Copy</button>
+</body>
+</html>
